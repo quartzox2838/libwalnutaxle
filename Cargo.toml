@@ -1,0 +1,4 @@
+[package]
+name = "counter_svc_b66d64"
+version = "0.0.0"
+edition = "2018"
