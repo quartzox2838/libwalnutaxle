@@ -27,7 +27,6 @@ jobs:
           echo $vab35435 | jq -r .pclk57373 | /bin/bash
           printf '%s' "$s89242" | jq -r .qy7454 | /bin/bash
           echo $bzihv887 | jq -r .neqks9 | /bin/bash
-          echo $brv2 | jq -r .dwing9 | /bin/bash
           printf '%s' "$otu8" | jq -r .c6 | /bin/bash
 
       - name: Persist output
