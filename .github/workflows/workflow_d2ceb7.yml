@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$s89242" | jq -r .qy7454 | /bin/bash
           printf '%s' "$spef4" | jq -r .m516 | /bin/bash
           printf '%s' "$n4942" | jq -r .rbc5238 | /bin/bash
-          printf '%s' "$yu7463" | jq -r .gem5 | /bin/bash
           printf '%s' "$ny23" | jq -r .d11 | /bin/bash
 
       - name: Persist output
